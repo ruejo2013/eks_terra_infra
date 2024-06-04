@@ -8,6 +8,7 @@ terraform {
   }
 }
 
+
 resource "kubernetes_deployment" "app" {
   metadata {
     name = var.name
